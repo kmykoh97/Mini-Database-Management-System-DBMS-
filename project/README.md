@@ -34,7 +34,7 @@ Data.h
 > bool changeDB(int key, std::string newValue); /change value of a value based on key given
 > bool deleteDB(int key); // delete unwanted data
 > std::string getDB(int key); // search for data
-> std::vector<int> getRangeDB(int key1, int key2)// search for range of keys
+> std::vector<int> getRangeDB(int key1, int key2); // search for range of keys
 
 ```
 
