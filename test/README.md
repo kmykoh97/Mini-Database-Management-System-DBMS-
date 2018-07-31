@@ -5,10 +5,10 @@
 Testing written in main.cpp using API provided in DBMS.h  
 
 ## Result
-O(log(n)) complexity  
+O(log(n)) complexity for important functionalities  
 Please refer to documentation to know the testing method and results  
 
 
 Meng Yit Koh  
-517030990022    
+kmykoh97@gmail.com    
 Shanghai Jiao Tong University  

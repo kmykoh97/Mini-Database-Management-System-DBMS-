@@ -30,8 +30,8 @@ Data.h
 ```
 > void openDB(int method); // do requireinitialization to open index and data files
 > void closeDB(); // do required ending procedures
-> bool insertDB(int key, std::string value); /insert key-value data into this database
-> bool changeDB(int key, std::string newValue); /change value of a value based on key given
+> bool insertDB(int key, std::string value); // insert key-value data into this database
+> bool changeDB(int key, std::string newValue); // change value of a value based on key given
 > bool deleteDB(int key); // delete unwanted data
 > std::string getDB(int key); // search for data
 > std::vector<int> getRangeDB(int key1, int key2); // search for range of keys
@@ -66,5 +66,5 @@ According to test, they run in O(log(n)) complexity
 
 
 Meng Yit Koh  
-517030990022    
+kmykoh97@gmail.com   
 Shanghai Jiao Tong University  
