@@ -93,6 +93,7 @@ string DBMS::getDB(int x)
     }
 
     BPNode temp = key.searchKey(x);
+    
     if (key.hasKey(x, temp)) {
         int index = temp.searchKey(x);
         int offset = temp.value[index].offset;

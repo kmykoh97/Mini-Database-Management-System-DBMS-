@@ -228,7 +228,13 @@ void Index::close()
 
 BPNode Index::searchKey(int x)
 {
-    BPNode temp = getKey(rootPosition);
+    BPNode temp = BPNode();
+
+    if (isEmpty()) {
+        return temp;
+    }
+
+    temp = getKey(rootPosition);
     
     // iteratively search for the node in leaves
     while (temp.isLeaf() == 0) {
@@ -394,6 +400,12 @@ vector<int> Index::removeKey(int x, BPNode& o)
     vector<int> info;
     info = o.removeKey(x);
     writeNode(o);
+
+    // checks for empty index after deleting
+    /* 
+    Not doable as complete overhaul of code needed
+    I am still figuring way to do it 
+    */
 
     return info;
 }
