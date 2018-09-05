@@ -62,8 +62,8 @@ char = 1
 ```
 
 ### Efficiency
-According to test, they run in O(log(n)) complexity  
-
+According to test, functionalities run in O(log(n)) complexity  
+Please refer to Documentation to see the test methods and results
 
 Meng Yit Koh  
 kmykoh97@gmail.com   
